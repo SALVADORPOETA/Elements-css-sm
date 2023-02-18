@@ -1,0 +1,43 @@
+.curvy-homepage {
+    position: relative;
+    margin: -8px;
+    height: 100vh;
+    width: 110%;
+    margin-bottom: 20px;
+}
+
+.h1-curvy-homepage {
+    position: relative;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+}
+
+.p-curvy-homepage {
+    position: relative;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.wavy-curvy-homepage {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to right, #3486ff, #f11986);
+}
+
+.img-curvy-homepage {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.img-curvy-homepage:nth-child(2) {
+    transform: rotate(180deg) rotateX(180deg);
+    opacity: 30%;
+}

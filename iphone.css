@@ -1,0 +1,150 @@
+.iphone {
+    background: gray;
+    position: relative;
+    width: 105%;
+    height: 100vh;
+    margin: -8px;
+    margin-top: -43px;
+    margin-bottom: -10px;
+}
+
+.h1-iphone {
+    position: relative;
+    top: 43%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.p-iphone {
+    position: relative;
+    top: 43%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.IPHONE-iphone {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobile-iphone {
+    width: 296px;
+    height: 580px;
+    background: white;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.screen-iphone {
+    width: 276px;
+    height: 450px;
+    background: url('https://i.pinimg.com/736x/f7/52/b3/f752b319935f38f3c72caed216d4b7ea.jpg');
+    background-size: cover;
+    margin: 58px auto;
+    border-radius: 2px;
+}
+
+.header-iphone {
+    position: absolute;
+    margin: 0px 10px;
+    width: 276px;
+    height: 60px;
+    background: transparent;
+}
+
+.mic-iphone {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 7px;
+    height: 7px;
+    background: black;
+    border-radius: 50%;
+}
+
+.camera-iphone {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+
+.speaker-iphone {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 5px;
+    background: black;
+    border-radius: 100px;
+}
+
+.footer-iphone {
+    position: absolute;
+    margin: -60px 10px;
+    width: 276px;
+    height: 60px;
+    background: transparent;
+}
+
+.button-iphone {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, .6);
+}
+
+.volume-iphone {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 25px;
+    background: #ccc;
+}
+
+.volume-iphone:nth-child(2) {
+    top: 25%;
+}
+
+.silent-iphone {
+    position: absolute;
+    left: 0%;
+    top: 14%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 20px;
+    background: #ccc;
+}
+
+.sleep-iphone {
+    position: absolute;
+    left: 100%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 27px;
+    background: #ccc;
+}

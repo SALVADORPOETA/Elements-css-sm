@@ -1,0 +1,42 @@
+.grayscale {
+    background: #ddd;
+    padding: 0;
+    margin: -8px;
+    height: 100vh;
+    width: 110%;
+    position: relative;
+    margin-bottom: -55px;
+}
+
+.h1-grayscale {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+}
+
+.p-grayscale {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.img-grayscale {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    transition: 2s;
+    filter: grayscale(100%);
+    background: #ddd;
+}
+
+.img-grayscale:hover {
+    filter: grayscale(0%);
+}

@@ -1,0 +1,65 @@
+.ball-hover {
+    background: url('https://wallpapers.com/images/featured/dgmxybg4kb7eab7x.jpg');
+    width: 105%;
+    height: 100vh;
+    position: relative;
+    margin: -8px;
+}
+
+.box-ball-hover {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.h1-ball-hover {
+    position: relative;
+    top: 40%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    color: white;
+}
+
+.p-ball-hover {
+    position: relative;
+    top: 40%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.img-ball-hover {
+    position: absolute;
+    width: 100px;
+    transition: 1s;
+}
+
+.box-ball-hover:hover img:nth-child(5) {
+    transform: translate(260px, -200px);
+    opacity: 1;
+}
+
+.box-ball-hover:hover img:nth-child(4) {
+    transform: translate(200px, -170px);
+    opacity: 0.5;
+}
+
+.box-ball-hover:hover img:nth-child(3) {
+    transform: translate(140px, -140px);
+    opacity: 0.3;
+}
+
+.box-ball-hover:hover img:nth-child(2) {
+    transform: translate(80px, -80px);
+    opacity: 0.1;
+}
+
+.box-ball-hover:hover img:nth-child(1) {
+    transform: translate(20px, -20px);
+    opacity: 0;
+}

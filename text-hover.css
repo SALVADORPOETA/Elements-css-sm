@@ -1,0 +1,24 @@
+.text-hover {
+    margin: 0;
+    padding: 0;
+    background: #ffde37;
+    position: relative;
+    margin: -8px;
+    height: 100vh;
+    width: 110%;
+}
+
+.h1-text-hover {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 8em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.h1-text-hover:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+}

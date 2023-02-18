@@ -1,0 +1,55 @@
+.scrolling-text {
+    padding: 0;
+    width: 105%;
+    height: 100vh;
+    margin: -8px;
+}
+
+.container-scrolling-text {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-scrolling-text {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url(https://c8.alamy.com/compde/mth98y/social-media-icons-auf-einer-pc-tastatur-social-networking-tastenkombinationen-social-network-services-internet-social-media-tasten-mth98y.jpg);
+    overflow: hidden;
+    background-position: center;
+}
+
+.right-scrolling-text {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: dodgerblue;
+    overflow: hidden;
+}
+
+.h1-scrolling-text {
+    position: absolute;
+    font-size: 10em;
+    white-space: nowrap;
+    color: white;
+    line-height: 70vh;
+    animation: anim-scrolling-text 10s linear infinite;
+    font-family: sans-serif;
+}
+@keyframes anim-scrolling-text {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.left-scrolling-text h1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    left: 100%;
+}

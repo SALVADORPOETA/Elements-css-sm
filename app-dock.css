@@ -1,0 +1,91 @@
+.app-dock {
+    background-image: url('https://roytanck.com/wp-content/uploads/2022/05/ubuntu-2204-wallpaper-2880x1620.jpg');
+    width: 105%;
+    height: 100vh;
+    margin: -8px;
+    position: relative;
+}
+
+.container-app-dock {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    width: 600px;
+    height: 80px;
+    border-radius: 50px 50px 20px 20px;
+}
+
+.a-app-dock {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.a-app-dock:nth-child(1) {
+    background-image: url('https://www.freepnglogos.com/uploads/google-chrome-png-logo/google-chrome-symbol-logo-png-3.png');
+    background-size: cover;
+    left: 0%;
+}
+
+.a-app-dock:nth-child(2) {
+    background-image: url('https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone.png');
+    background-size: cover;
+    left: 13%;
+}
+
+.a-app-dock:nth-child(3) {
+    background-image: url('https://eltallerdehector.com/wp-content/uploads/2022/10/facebook-logo-circle-PNG-HD-Download.png');
+    background-size: cover;
+    left: 26%;
+}
+
+.a-app-dock:nth-child(4) {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/888/888873.png');
+    background-size: cover;
+    left: 39%;
+}
+
+.a-app-dock:nth-child(5) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png');
+    background-size: cover;
+    left: 52%;
+}
+
+.a-app-dock:nth-child(6) {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/281/281769.png');
+    background-size: cover;
+    left: 65%;
+}
+
+.a-app-dock:nth-child(7) {
+    background-image: url('https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png');
+    background-size: cover;
+    left: 78%;
+}
+
+.a-app-dock:hover {
+    padding: 30px;
+    bottom: 30px;
+}
+
+.a-app-dock:active {
+    animation: dock-app-dock 1s linear infinite;
+}
+
+@keyframes dock-app-dock {
+    0% {
+        bottom: 0;
+    }
+    25% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 0;
+    }
+}

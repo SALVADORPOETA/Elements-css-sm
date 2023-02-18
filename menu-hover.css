@@ -1,0 +1,41 @@
+.menu-hover {
+    background: #262626;
+    font-family: sans-serif;
+    position: relative;
+    margin: -8px;
+    width: 105%;
+    height: 100vh;
+}
+
+.menu-menu-hover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    text-align: center;
+}
+
+.menu-menu-hover li {
+    width: 100%;
+    list-style: none;
+}
+
+.menu-menu-hover li a {
+    display: block;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: darkorange;
+    transition: 0.5s linear;
+    background: darkorange;
+}
+
+.menu-menu-hover li a:hover {
+    color: darkorange;
+    background: white;
+    padding: 60px;
+    font-size: 30px;
+}

@@ -1,0 +1,50 @@
+.registration-form {
+    background: url(https://wallpaperaccess.com/full/327006.jpg);
+    font-family: sans-serif;
+    position: relative;
+    margin: -8px;
+    width: 105%;
+    height: 100vh;
+    margin-bottom: -10px;
+}
+
+.container-registration-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.id-registration-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-registration-form {
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+    border: 3px solid #000041;
+    outline: none;
+    border-radius: 5px;
+    color: #000041;
+}
+
+.button-registration-form {
+    margin: 0 30px;
+    width: 200px;
+    height: 50px;
+    background: #000041;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}

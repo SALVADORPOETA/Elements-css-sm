@@ -1,0 +1,28 @@
+.transparent-background {
+    background: url('https://www.hdwallpapers.in/download/aerial_view_of_forest_and_river_landscape_hd_nature-2560x1440.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 105%;
+    height: 100vh;
+    margin: -8px;
+    position: relative;
+}
+
+.h1-transparent-background {
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    font-family: sans-serif;
+}
+
+.box-transparent-background {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+}

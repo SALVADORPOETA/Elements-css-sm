@@ -1,0 +1,23 @@
+.blur-background {
+    margin: -8px;
+    padding: 0;
+    position: relative;
+}
+
+.h1-blur-background {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    color: white;
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+.image-blur-background {
+    background: url('https://cdn.wallpapersafari.com/49/33/feV8ps.jpg');
+    background-size: cover;
+    height: 100vh;
+    filter: blur(5px);
+}

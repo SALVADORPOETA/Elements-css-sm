@@ -1,0 +1,26 @@
+.skewed-background {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin: -8px;
+    height: 100vh;
+    width: 110%;
+}
+
+.box-skewed-background {
+    background: url(https://as01.epimg.net/meristation/imagenes/2021/07/31/reportajes/1627766112_935650_1627941879_noticia_normal.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.h1-skewed-background {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    color: brown;
+}
